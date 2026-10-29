@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+}
+#quiz_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    width: 100%;
+}
+#input_container{
+    text-align: center;
+}
