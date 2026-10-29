@@ -6,9 +6,41 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(160, 214, 214);
     height: 100svh;
     width: 100%;
 }
-#input_container{
+#quiz_container #question_container{
+    display: flex;
+    font-size: 70px;
+    background-color: rgb(68, 157, 162);
+    width: 100%;
+    justify-content: center;
+}
+
+#quiz_container #second_sub_container{
+    width: 100%;
+    display: flex;
+    background-color: rgb(51, 114, 117);
+    justify-content: center;
+}
+
+#quiz_container #inputting_sub_container{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 170px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#quiz_container #inputting_sub_container #input_container{
     text-align: center;
+    font-size: 20px;
+    width: 100px;
+    height: 35px;
+}
+
+#quiz_container #inputting_sub_container #submit_button{
+    height: 20px;
 }
