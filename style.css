@@ -10,16 +10,21 @@
     height: 100svh;
     width: 100%;
 }
+
+#quiz_container #border_container{
+    width: 100%;
+    border-top:5px solid black;
+    border-bottom:5px solid black;
+}
+
 #quiz_container #question_container{
     display: flex;
     font-size: 70px;
     background-color: rgb(68, 157, 162);
-    width: 100%;
     justify-content: center;
 }
 
 #quiz_container #second_sub_container{
-    width: 100%;
     display: flex;
     background-color: rgb(51, 114, 117);
     justify-content: center;
